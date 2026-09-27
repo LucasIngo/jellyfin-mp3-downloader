@@ -1,0 +1,12 @@
+# Lokale/umgebungsspezifische Konfiguration nie committen
+config.yml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Docker
+*.log
